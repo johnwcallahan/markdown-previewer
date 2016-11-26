@@ -4,4 +4,4 @@ A lightweight, side-by-side previewer for markdown text. Type markdown in the te
 
 Built with React and [marked](https://github.com/chjj/marked).
 
-*Live demo: http://codepen.io/lvb_111/full/NRWdkR/*
+*Live demo on [CodePen](http://codepen.io/lvb_111/full/NRWdkR/)*
