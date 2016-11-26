@@ -1,15 +1,14 @@
-var React = require('react');
+var React = require("react");
  
-// sets innerHTML to the content prop passed in
+//Sets innerHTML to the content prop passed in
 var Preview = React.createClass({
   getDefaultProps: function() {
     return {
-      content: ''
+      content: "";
     }
   },
-  // refer to https://facebook.github.io/react/tips/dangerously-set-inner-html.html
   markup: function() {
-    return {__html: this.props.content};
+    return { __html: this.props.content };
   },
   render: function() {
     return (
